@@ -1,0 +1,19 @@
+{
+  "name": "my-first-liff-app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@line/liff": "2.22.4",
+    "vue": "3.3.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "4.4.0",
+    "typescript": "5.2.2",
+    "vite": "4.5.0",
+    "vue-tsc": "1.8.22"
+  }
+}
